@@ -1,4 +1,3 @@
-This file contains example Asterisk configuration files for the OpenBTS Asterisk server.
-
-This file does not contain REAL configuration files, since those would include real IMSIs.
+This directory contains example Asterisk configuration files for the OpenBTS Asterisk server.
+It also includes a set of network error messages, English only so far.
 
