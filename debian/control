@@ -1,0 +1,18 @@
+Source: range-asterisk-config
+Section: comm
+Priority: optional
+Maintainer: Range Networks, Inc. <info@rangenetworks.com>
+Homepage: http://www.rangenetworks.com/
+Build-Depends: build-essential, debhelper (>= 7)
+Standards-Version: 3.7.3
+
+
+Package: range-asterisk-config
+Version: 3.1.0
+Section: comm
+Priority: optional
+Architecture: any
+Essential: no
+Depends: asterisk
+Replaces: asterisk
+Description: OpenBTS Commercial software.
