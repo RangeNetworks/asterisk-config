@@ -23,8 +23,10 @@ clean::
 	rm -rf debian/tmp 
 
 install: 
-	mkdir -p debian/tmp
-	./setUpFiles.sh debian/tmp/
+	mkdir -p debian/tmp/etc/asterisk/
+	mkdir -p debian/tmp/var/lib/asterisk/sounds/en/
+	cp *.conf debian/tmp/etc/asterisk/
+	cp en/*.gsm debian/tmp/var/lib/asterisk/sounds/en/
 
 binary-indep: install
 	dh_testdir
