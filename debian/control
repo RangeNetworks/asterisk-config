@@ -13,6 +13,6 @@ Section: comm
 Priority: optional
 Architecture: any
 Essential: no
-Depends: asterisk
-Replaces: asterisk
+Depends:
+Replaces:
 Description: OpenBTS Commercial software.
