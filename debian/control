@@ -14,5 +14,6 @@ Priority: optional
 Architecture: any
 Essential: no
 Depends:
-Replaces:
+Replaces: asterisk-config
+Breaks: asterisk-config
 Description: OpenBTS Commercial software.
