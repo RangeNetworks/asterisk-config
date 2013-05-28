@@ -8,7 +8,7 @@ Standards-Version: 3.7.3
 
 
 Package: range-asterisk-config
-Version: C3.1TRUNK
+Version: rC3.1.1
 Section: comm
 Priority: optional
 Architecture: any
