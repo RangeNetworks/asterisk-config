@@ -14,6 +14,6 @@ Priority: optional
 Architecture: any
 Essential: no
 #Depends: asterisk, asterisk-config
-Replaces: asterisk-config (<< 1:10.9.0)
+Replaces: odbcinst, asterisk-config (<< 1:10.9.0)
 #Breaks: asterisk-config (<< 1:10.9.0)
 Description: OpenBTS Commercial software.
