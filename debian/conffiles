@@ -8,3 +8,8 @@
 /etc/asterisk/modules.conf
 /etc/asterisk/rtp.conf
 /etc/asterisk/sip.conf
+/etc/asterisk/extconfig.conf
+/etc/asterisk/func_odbc.conf
+/etc/asterisk/res_odbc.conf
+/etc/odbc.ini
+/etc/odbcinst.ini
