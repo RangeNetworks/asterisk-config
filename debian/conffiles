@@ -1,8 +1,6 @@
 /etc/asterisk/cdr.conf
 /etc/asterisk/cdr_custom.conf
 /etc/asterisk/extensions.conf
-/etc/asterisk/extensions.prepaid.ratetable.conf
-/etc/asterisk/extensions.prepaid.simple.conf
 /etc/asterisk/indications.conf
 /etc/asterisk/logger.conf
 /etc/asterisk/modules.conf
