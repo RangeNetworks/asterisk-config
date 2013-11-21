@@ -8,7 +8,6 @@ Standards-Version: 3.7.3
 
 
 Package: range-asterisk-config
-Version: TRUNK
 Section: comm
 Priority: optional
 Architecture: any
