@@ -23,6 +23,7 @@ case "$1" in
 	touch /etc/asterisk/extensions-custom.conf
 	touch /etc/asterisk/sip-custom-register.conf
 	touch /etc/asterisk/sip-custom-contexts.conf
+	chown -R asterisk:www-data /etc/asterisk
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
