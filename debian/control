@@ -10,7 +10,7 @@ Standards-Version: 3.7.3
 Package: range-asterisk-config
 Section: comm
 Priority: optional
-Architecture: any
+Architecture: all
 Essential: no
 #Depends: asterisk, asterisk-config
 Replaces: odbcinst, asterisk-config (<< 1:10.9.0)
