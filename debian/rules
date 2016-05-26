@@ -23,14 +23,14 @@ export DH_OPTIONS
 clean::
 	dh_testdir
 	dh_clean
-	rm -rf debian/tmp 
+	rm -rf debian/range-asterisk-config
 
 install: 
-	mkdir -p debian/tmp/etc/asterisk/
-	mkdir -p debian/tmp/var/lib/asterisk/sounds/en/
-	cp *.conf debian/tmp/etc/asterisk/
-	cp en/*.gsm debian/tmp/var/lib/asterisk/sounds/en/
-	cp *.ini debian/tmp/etc/
+	mkdir -p debian/range-asterisk-config/etc/asterisk/
+	mkdir -p debian/range-asterisk-config/var/lib/asterisk/sounds/en/
+	cp *.conf debian/range-asterisk-config/etc/asterisk/
+	cp en/*.gsm debian/range-asterisk-config/var/lib/asterisk/sounds/en/
+	cp *.ini debian/range-asterisk-config/etc/
 
 binary-indep: install
 	dh_testdir

@@ -2,4 +2,4 @@
 debian/debhelper.log
 debian/files
 debian/substvars
-debian/tmp/
+debian/range-asterisk-config*
